@@ -12,7 +12,7 @@ DESCRIPCION:
 #include "magicpid.h"
 //---------------------------------------------------------------------------
 
-// Ñieejejejejeje
+// This is a leftover from when this very program had its own 25-letter product key system to use it too!
 static DWORD Proteccion[91] =
 {0x0000016C,0x00000007,0x88A9BE20,0x0130DFAE,
 0x0000000C,0x0000001C,0x00000037,
@@ -39,11 +39,11 @@ static DWORD Proteccion[91] =
 0xB06FB1B3,0xADDE7A91,0x8F481A7C,0x765AC3DA};
 
 
-/* Claves válidas
+/* Claves vÃ¡lidas
 CJ6BY-JVH7X-QJQQG-B3TMD-7T26B	JR (7F00 0020)
 C6H34-3GF22-XYQTY-KVXFJ-3GFWY   JA (7F01 0020)
 B3272-YRMB7-T9JQ8-4YG44-FJHMY	JA (7F01 0010)
-B6TTW-GDK6C-2HQXF-CDCKQ-KKP4K	Pública (0000 000F)
+B6TTW-GDK6C-2HQXF-CDCKQ-KKP4K	PÃºblica (0000 000F)
 
 F2RDT-CW4PW-GTP7J-XK2TC-9P3YH   5 usos (act 0)
 B6TTW-GDK6C-2HQXF-CDCKQ-KKP4K   15 usos (act 0)
@@ -73,6 +73,7 @@ D824C-W7V2G-D3HVK-CBHKF-G6FVK   ilimitada (act 20)
 
 */
 
+// And this is a leftover when trying out a brute force approach. Disclaimer: It never got anything. It would have taken many years to get a single key.
 //
 ///*****************************************************************************
 //FUNCION: CrackerClick
@@ -89,7 +90,7 @@ D824C-W7V2G-D3HVK-CBHKF-G6FVK   ilimitada (act 20)
 //
 //    CargarMagicUsuario();
 //
-//    // Lee la tabla de números mágicos
+//    // Lee la tabla de nÃºmeros mÃ¡gicos
 //    if(LeeTablaMagica(Producto, &Mod, &UnoCero, &A1A2, &B1B2, &Tam, &TamCSup1,
 //        &TamCSup2) == ERROR_NUMMAGICOS)
 //        return;
