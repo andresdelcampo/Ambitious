@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Ambitious.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="AMBITIOUS v9.0 by el Puto Amo :p" Height="700" Width="358" WindowStartupLocation="CenterScreen">
+    Title="AMBITIOUS v10.0" Height="700" Width="358" WindowStartupLocation="CenterScreen">
     <ScrollViewer>
     <StackPanel Name="stackPanel5" >
         <Expander Header="Key Validation" Name="expander5" Margin="5,7,5,0" IsExpanded="True" BorderBrush="Black">
