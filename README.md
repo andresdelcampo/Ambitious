@@ -33,3 +33,8 @@ They are basically an **incredibly HUGE number coded in base 24** (so 25 to the 
 Product keys are generated using an Elliptic Curve Digital Signature Algorithm (ECDSA) and a Secure Hash Algorithm (SHA-1) -which are topics strongly recommended to learn about if you are trying to understand how these keys work. Public keys (required to validate the keys) can be found inside the target product files, while private keys (also required to create new keys) are only known to Microsoft -though you can create your own key systems with your own private and public keys with this application -for your own software. 
 
 What was particularly puzzling when trying to find a way to generate new keys, is that SHA-1 is an irreversible algorithm -it reduces a big number into a smaller signature -and yet that irreversible signature is compared back to part of the source product key that was used to calculate that signature in the first place!
+
+
+---
+
+For more of my projects, visit [Software Workshop](https://andresdelcampo.github.io/software-showcase/).
